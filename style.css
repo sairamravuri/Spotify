@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body
+{
+    background-color: aliceblue;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: 'Noto Sans', sans-serif;
+}
+nav ul 
+{
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li
+{
+    padding: 0px 10px;
+}
+.brand img
+{
+    width:50px;
+    padding: 0px 8px;
+}
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.container
+{ 
+    max-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'verela Round' ,sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 25px auto;
+    border-radius: 16px;
+    padding: 30px;
+    background-image: url(sidsrirambg.jpg);
+    background-repeat: no-repeat;
+}
+.songlist
+{
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+.bottom
+{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons
+{
+    margin-top: 20px;
+    
+}
+.icons i
+{
+    cursor: pointer;
+}
+#bottomBar
+{
+    width: 80vw;
+}
+.songitem-container
+{
+    margin-top: 50px;
+}
+.songitem
+{
+    display: flex;
+    background-color: white; 
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitem img
+{
+    width: 40px;
+    margin: 0 24px;
+    border-radius: 30px;
+}
+.timestamp
+{
+    margin: 0px 23px;
+}
+.timestamp i
+{
+    cursor: pointer;  
+}
+.sonfinfo
+{
+    position: absolute;
+    left: 9.4vw;
+}
+.sonfinfo img
+{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
